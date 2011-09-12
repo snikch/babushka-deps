@@ -1,6 +1,6 @@
 dep 'rbenv-install' do
   met? {
-    shell 'PATH="$HOME/.rbenv/bin:$PATH" rbenv'
+    shell? 'PATH="$HOME/.rbenv/bin:$PATH" rbenv'
   }
   meet {
     cd('~') {
