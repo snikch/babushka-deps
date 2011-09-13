@@ -10,4 +10,7 @@ dep 'rbenv-install' do
       # TODO: figure out why 'exec' borks.
     }
   }
+  after {
+    log "NOTE: Please log out/in or source your ~/.bash_profile"
+  }
 end
