@@ -1,4 +1,4 @@
-dep 'alias-bx' do
+dep 'alias-bx-rbenv' do
   met? {
     shell? "grep 'function bx()' $HOME/.bash_profile"
   }
