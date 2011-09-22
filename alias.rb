@@ -20,7 +20,7 @@ dep 'alias-bx' do
   meet {
     cd('~') {
       log_shell "Creating alias 'bx' for 'bundle exec'",
-        %Q{echo 'bx() { if [[ $1 == "bp" ]]; then command shift && /usr/local/bin/bundle exec bluepill --no-privileged "$@"; else command /usr/local/bin/bundle exec "$@"; fi; }' >> .bashrc}
+        %Q{echo 'bx() { if [[ $1 == "bp" ]]; then command shift && /usr/local/bin/bundle exec bluepill "$@"; else command /usr/local/bin/bundle exec "$@"; fi; }' >> .bashrc}
 
     }
   }
