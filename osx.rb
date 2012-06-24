@@ -26,3 +26,21 @@ meta 'ttf' do
   }
 end
 
+dep 'subpixel smoothing enabled' do
+  met? {
+    shell("defaults -currentHost read -globalDomain AppleFontSmoothing") == "2"
+  }
+
+  meet {
+    shell "defaults -currentHost write -globalDomain AppleFontSmoothing -int 2"
+  }
+end
+
+dep 'user font dir exists' do
+  met? {
+    "~/Library/Fonts".p.dir?
+  }
+  meet {
+    log_shell "Creating ~/Library/Fonts", "mkdir ~/Library/Fonts"
+  }
+end
