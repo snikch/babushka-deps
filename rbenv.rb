@@ -7,7 +7,7 @@ end
 
 dep 'rbenv-configured' do
   requires 'rbenv-install'
-  met? { '$HOME/.bashrc'.p.grep 'rbenv' }
+  met? { 'cat $HOME/.bashrc | grep rbenv' }
   meet { 
     log_shell 'rbenv setup', %Q{echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> .bashrc}
     shell %Q{echo 'eval "$(rbenv init -)"' >> .bashrc}
