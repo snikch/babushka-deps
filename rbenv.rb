@@ -1,8 +1,8 @@
 dep 'rbenv' do
   requires '1.9.3.rbenv'
   version = '1.9.3-p194'
-  met? { shell "rbenv global | grep #{version}" }
-  meet { log_shell "Setting #{version} as the global rbenv default", "rbenv global #{version}" }
+  met? { shell "~/.rbenv/bin/rbenv global | grep #{version}" }
+  meet { log_shell "Setting #{version} as the global rbenv default", "~/.rbenv/bin/rbenv global #{version}" }
 end
 
 dep 'rbenv-configured' do
