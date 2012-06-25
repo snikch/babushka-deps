@@ -42,4 +42,6 @@ dep 'Sequel Pro.app' do
   source 'http://sequel-pro.googlecode.com/files/Sequel_Pro_0.9.9.1.dmg'
 end
 
-
+dep 'VirtualBox.app' do
+  source 'http://download.virtualbox.org/virtualbox/4.1.18/VirtualBox-4.1.18-78361-OSX.dmg'
+end
