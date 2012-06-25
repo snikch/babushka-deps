@@ -53,3 +53,7 @@ end
 dep 'GrabBox.app' do
   source 'http://grabbox.devsoft.no/updates/GrabBox%201.1.7.zip'
 end
+
+dep 'HandBrake.app' do
+  source 'http://downloads.sourceforge.net/project/handbrake/0.9.6/HandBrake-0.9.6-MacOSX.6_GUI_x86_64.dmg?r=http%3A%2F%2Fhandbrake.fr%2Fdownloads.php&ts=1340597780&use_mirror=superb-sea2'
+end
