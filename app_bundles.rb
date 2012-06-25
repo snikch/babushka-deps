@@ -1,5 +1,5 @@
-dep 'Vim.app' do
-    source 'http://macvim.org/OSX/files/binaries/OSX10_4/Vim7.0-univ.tar.bz2'
+dep 'MacVim.app' do
+    source 'https://github.com/downloads/b4winckler/macvim/MacVim-snapshot-64.tbz'
 end
 
 dep 'Google Chrome.app' do
