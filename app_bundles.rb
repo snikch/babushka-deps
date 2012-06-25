@@ -25,3 +25,7 @@ end
 dep 'Alfred.app' do
   source 'http://rwc.cachefly.net/alfred_1.2_220.dmg'
 end
+
+dep 'Adium.app' do
+  source 'http://download.adium.im/Adium_1.5.1.dmg'
+end
