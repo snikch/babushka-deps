@@ -46,7 +46,7 @@ dep 'VirtualBox.installer' do
   source 'http://download.virtualbox.org/virtualbox/4.1.18/VirtualBox-4.1.18-78361-OSX.dmg'
 end
 
-dep 'Calibre.app' do
+dep 'calibre.app' do
   source 'http://status.calibre-ebook.com/dist/osx32'
 end
 
