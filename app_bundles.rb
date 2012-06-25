@@ -49,3 +49,7 @@ end
 dep 'Calibre.app' do
   source 'http://status.calibre-ebook.com/dist/osx32'
 end
+
+dep 'GrabBox.app' do
+  source 'http://grabbox.devsoft.no/updates/GrabBox%201.1.7.zip'
+end
