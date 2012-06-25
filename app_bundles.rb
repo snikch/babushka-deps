@@ -34,7 +34,7 @@ dep 'VLC.app' do
   source 'http://iweb.dl.sourceforge.net/project/vlc/2.0.1/macosx/vlc-2.0.1.dmg'
 end
 
-dep 'JDownloader.installer' do
+dep 'JDownloader.app' do
   source 'http://installer.jdownloader.org/jd_macos_0_9.dmg'
 end
 
