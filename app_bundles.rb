@@ -34,7 +34,7 @@ dep 'VLC.app' do
   source 'http://iweb.dl.sourceforge.net/project/vlc/2.0.1/macosx/vlc-2.0.1.dmg'
 end
 
-dep 'JDownloader.app' do
+dep 'JDownloader.installer' do
   source 'http://installer.jdownloader.org/jd_macos_0_9.dmg'
 end
 
@@ -42,6 +42,6 @@ dep 'Sequel Pro.app' do
   source 'http://sequel-pro.googlecode.com/files/Sequel_Pro_0.9.9.1.dmg'
 end
 
-dep 'VirtualBox.app' do
+dep 'VirtualBox.installer' do
   source 'http://download.virtualbox.org/virtualbox/4.1.18/VirtualBox-4.1.18-78361-OSX.dmg'
 end
