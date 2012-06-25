@@ -37,3 +37,9 @@ end
 dep 'JDownloader.app' do
   source 'http://installer.jdownloader.org/jd_macos_0_9.dmg'
 end
+
+dep 'Sequel Pro.app' do
+  source 'http://sequel-pro.googlecode.com/files/Sequel_Pro_0.9.9.1.dmg'
+end
+
+
