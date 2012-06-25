@@ -29,3 +29,7 @@ end
 dep 'Adium.app' do
   source 'http://download.adium.im/Adium_1.5.1.dmg'
 end
+
+dep 'VLC.app' do
+  source 'http://iweb.dl.sourceforge.net/project/vlc/2.0.1/macosx/vlc-2.0.1.dmg'
+end
