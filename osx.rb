@@ -1,6 +1,11 @@
 dep 'meslo.ttf' do
     source 'http://github.com/downloads/andreberg/Meslo-Font/Meslo%20LG%20DZ%20v1.0.zip'
-      ttf_filename "MesloLGM-DZ-Regular.ttf"
+    ttf_filename "MesloLGM-DZ-Regular.ttf"
+end
+
+dep 'meslo-powerline.ttf' do
+  source 'https://gist.github.com/raw/1644183/303cbf0f672199efc26151e2d00a32bfa5844990/MesloLGS-DZ-Regular-Powerline.ttf'
+  ttf_filename 'MesloLGS-DZ-Regular-Powerline.ttf'
 end
 
 meta 'ttf' do
