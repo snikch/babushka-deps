@@ -4,8 +4,8 @@ dep 'meslo.ttf' do
 end
 
 dep 'meslo-powerline.ttf' do
-  source 'https://gist.github.com/raw/1644183/303cbf0f672199efc26151e2d00a32bfa5844990/MesloLGS-DZ-Regular-Powerline.ttf'
-  ttf_filename 'MesloLGS-DZ-Regular-Powerline.ttf'
+  source 'http://mal.co.nz/MesloLGL-DZ-Regular-Powerline.ttf.zip'
+  ttf_filename 'MesloLGL-DZ-Regular-Powerline.ttf'
 end
 
 meta 'ttf' do
